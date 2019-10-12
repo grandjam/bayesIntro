@@ -13,7 +13,7 @@ install.packages("mcmcplots")
 ```
 
 ## Code files
-There are three R files to download:
+There are three R files to download. To run the analyses, all three files should be downloaded in the same working directory.
 - **simpleRegressionNormalDV.R** -- contains R code for running simple linear regression model using JAGS
 - **plotPost.R** -- contains R code for helper function to make pretty posterior distribution plots
 - **HDIofMCMC.R** -- contains R code for computing highest density credibility interval for MCMC samples
@@ -27,4 +27,6 @@ The sample data file entitled **mechPerfDat.csv** were collected as part of my u
 
 > Grand, J. A. (2008). Changing gears: Modeling gender differences in performance on tests of mechanical comprehension (Order No. 1463014). Available from ProQuest Dissertations & Theses Global. (304593336).
 
-The file contains data from 258 participants who completed a test of mechanical comprehension; a series of measures related to their interests, experience, knowledge, and self-efficacy with mechanical tasks; and measures corresponding to self-reported gender roles and endorsement of male-female stereotypes. The example simple regression analyses used in this presentation use only the mechanical test performance and mechanical self-efficacy data.
+The file contains data from 258 participants who completed a test of mechanical comprehension; a series of measures related to their interests, experience, knowledge, and self-efficacy with mechanical tasks; and measures corresponding to self-reported gender roles and endorsement of male-female stereotypes.
+
+To run the example analysis from this presentation, the data file should be downloaded into the same directory as the R files reference above. The example analyses use only the mechanical test performance and mechanical self-efficacy data.
